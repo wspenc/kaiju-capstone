@@ -1,0 +1,408 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  overflow-x: hidden;
+}
+header {
+  height: 50px;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.icons{
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+
+.icons-btn{
+  border: 3px solid whitesmoke;
+  color: black;
+  background-color: transparent;
+}
+
+.icons-btn:hover{
+  cursor: pointer;
+}
+
+.title-btn {
+  border: 3px solid whitesmoke;
+  color: black;
+  background-color: transparent;
+}
+
+.title-btn:hover{
+  cursor: pointer;
+}
+
+.header-nav{
+  display: inline-block;
+  margin: 0 20px 0 0;
+  border: 3px solid whitesmoke;
+  font-size: 18px;
+  color: black;
+  background-color: transparent;
+}
+
+.header-nav:hover{
+  cursor: pointer;
+}
+
+.hero .hero-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.hero-image{
+  position: absolute;
+  top: 8%;
+  left: 35%;
+}
+
+.hero-img{
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.hero-img2{
+  float: right;
+}
+
+.text1 .text2{
+  font-weight: bolder;
+}
+
+.text1{
+  position: absolute;
+  font-size: 60px; 
+  margin-top: 8rem;
+  margin-left: 3.7rem;
+}
+
+.text2{
+position: absolute;
+float: right;
+position: relative;
+margin-top: -14rem;
+margin-right: -28rem;
+font-size: 60px;
+}
+
+.hero{
+  background-color: #ECECEC ;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100vw;
+  height: 40vw;
+}
+
+
+/* CSS */
+.hero-btn {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hero-btn:after {
+  content: "";
+  background-color: #D3CE3D ;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.hero-btn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/*FAQ*/
+
+.accordian{
+  text-align: center;
+}
+
+.topic{
+  font-size: 15px;
+}
+
+.ans{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.question-section {
+  background: transparent;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  box-shadow: rgba(10, 20, 60, 0.5) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.15) 0px 1px 1px 1px;
+  cursor: pointer;
+  width: 25vw;
+}
+
+.topic-div {
+  display: flex;
+  min-height: 10px;
+  text-align: left;
+}
+
+.topic-div h4 {
+  margin-left: 10px;
+}
+
+.question-icon {
+  background: none;
+  border: none;
+  color: #1b6aae;
+  cursor: pointer;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.answer-divider {
+  border-top: 1px solid lightgray;
+}
+
+.answer1 {
+  margin-left: 8px;
+  margin-right: 8px;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+}
+
+
+.img-div3 .pro-btn {
+  position: absolute;
+  bottom: -65%;
+  right: 14%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-div1 .pro-btn {
+  position: absolute;
+  top: 115%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-div2 .pro-btn {
+  position: absolute;
+  bottom: -67%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-div2{
+  margin-top: 97px;
+}
+
+.pro-img{
+  padding: 15px
+}
+
+.img-div3{
+  float: right;
+}
+
+.pro-btn {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pro-btn:after {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.pro-btn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/*login*/
+input{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+  padding: 5px;
+}
+
+form{
+  text-align: center;
+}
+
+.login-btn{
+    background-color: black;
+    border: 2px solid black;
+    margin-top: 5px;
+    }
+    
+    .login-btn:hover{
+    padding: 4px 60px;
+    background-color: #fff;
+    color: black ;
+    border: solid 2px black  ;
+    }
+
+    .login-btn{
+      font-family: Roboto, sans-serif;
+      font-size: 17px;
+      color: #fff;
+      padding: 4px 25px;
+      box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+      transition : 1000ms;
+      transform: translateY(0);
+      cursor: pointer;
+   }
+   
+   .login-btn:hover{
+      transition : 1000ms;
+      transform : translateY(-0px);
+   }
+
+   .signup-btn{
+    background-color: #fff   ;
+    border: 2px solid black   ;
+    margin-top: 5px;
+    }
+    
+    .signup-btn:hover{
+    padding: 4px 60px;
+    background-color: black;
+    color: #fff ;
+    border: solid 2px black  ;
+    }
+
+    .signup-btn{
+      font-family: Roboto, sans-serif;
+      font-size: 17px;
+      color: black;
+      padding: 4px 25px;
+      box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+      transition : 1000ms;
+      transform: translateY(0);
+      cursor: pointer;
+   }
+   
+   .signup-btn:hover{
+      transition : 1000ms;
+      transform : translateY(-0px);
+   }
+
+   .shoe-img{
+    width: 23vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .bag {
+    background-color: whitesmoke;
+    float: right;
+    width: 400px;
+    min-height: auto;
+   }
+
+   .bag-div{
+    padding: 80px 350px;
+   }
+
+   .shoe-card{
+    flex-direction: row;
+    padding: 30px 0px;
+    display:block;
+
+   }
+
+   .bag-btn{
+    width: auto;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: .2rem;
+   }
+
+   .bag-btn:hover{
+    cursor: pointer;
+   }
+
+   .shoe-description{
+    width: 450px;
+   }
+
+.user{
+  display: inline-block;
+}
