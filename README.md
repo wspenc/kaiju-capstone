@@ -8,7 +8,7 @@ Login
 Landing Page
 ![hero](https://user-images.githubusercontent.com/105823133/217385685-dfa24e72-887a-4761-ab23-92e822dd59f6.png)
 
-Landing Page contineud
+Landing Page continued
 ![body](https://user-images.githubusercontent.com/105823133/217385655-1c2154d3-0e08-4c92-88b3-7ff3b1dbb207.png)
 
 FAQ
